@@ -88,11 +88,11 @@ print(f'Logistic Regression - Accuracy: {accuracy_lr}, F1 Score: {f1_lr}')
 
 ## Evaluasi Model: Apa yang Ditemukan?
 
+![Confusion Matrix](confusionmatrix.jpg)
+
 Setelah melatih model, kami mengevaluasi performa model dengan metrik **Accuracy** dan **F1-Score**, dua metrik penting untuk mengetahui bagaimana model bekerja pada data uji. F1-Score memberikan keseimbangan antara **Precision** dan **Recall**, yang sangat penting untuk memastikan model bekerja dengan baik pada data yang tidak seimbang.
 
 Hasil yang diperoleh menunjukkan bahwa **Random Forest** memberikan hasil yang sangat baik, dengan **Accuracy** mencapai 1.0 dan **F1-Score** yang juga 1.0, yang menandakan model mampu mengklasifikasikan data dengan sempurna. Sementara **Logistic Regression** memberikan **Accuracy** 0.97 dan **F1-Score** yang sedikit lebih rendah, tetapi masih menunjukkan performa yang sangat baik.
-
-![Confusion Matrix](confusionmatrix.jpg)
 
 ```python
 # Confusion Matrix
