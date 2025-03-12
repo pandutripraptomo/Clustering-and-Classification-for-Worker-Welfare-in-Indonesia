@@ -90,7 +90,7 @@ Setelah melatih model, kami mengevaluasi performa model dengan metrik **Accuracy
 
 Hasil yang diperoleh menunjukkan bahwa **Random Forest** memberikan hasil yang sangat baik, dengan **Accuracy** mencapai 1.0 dan **F1-Score** yang juga 1.0, yang menandakan model mampu mengklasifikasikan data dengan sempurna. Sementara **Logistic Regression** memberikan **Accuracy** 0.97 dan **F1-Score** yang sedikit lebih rendah, tetapi masih menunjukkan performa yang sangat baik.
 
-![Confusion Matrix](confusion20%matrix20%random20%forest20%dan20%logistic20%regression.jpg)
+![Confusion Matrix](confusionmatrix.jpg)
 
 ```python
 # Confusion Matrix
