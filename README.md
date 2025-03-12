@@ -21,6 +21,8 @@ Di sinilah **machine learning** hadir sebagai solusi. Dengan teknik **Clustering
 
 ## Pendekatan yang Digunakan:
 
+![Hasil Clustering PCA](clusteringPCA.jpg)
+
 ### 1. **Clustering (Unsupervised Learning)**
 
 Pada tahap pertama, kita menggunakan **Clustering** untuk mengelompokkan pekerja berdasarkan kesamaan karakteristik, seperti pendapatan dan pengeluaran. Dengan menggunakan algoritma **K-Means**, kita membagi data menjadi beberapa cluster untuk mengidentifikasi pola-pola yang mungkin tidak terdeteksi sebelumnya. Hasil dari clustering ini memberikan informasi tentang segmen-segmen pekerja yang dapat dianalisis lebih lanjut dengan model klasifikasi.
